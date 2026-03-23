@@ -1,17 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bio - O mnie</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <H1>Menu</H1><br>
-    <h2>O sobie</h2>
-    <p>glupoty o mnie</p><br>
-    <h2>Portfolio</h2>
-    <p>moje projekty</p><br>
-    <h2>Blog</h3>
-    <p>wpisy</p><br>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">O mnie</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>O mnie</h1>
+            
+            <div class="about-container">
+                <div class="profile-img">
+                    <img src="https://via.placeholder.com/300x300?text=Twoje+Zdjęcie" alt="Moje zdjęcie">
+                    <!-- UWAGA: Zastą powyższy link własnym zdjęciem -->
+                </div>
+                
+                <div class="about-text">
+                    <h2>Jan Kowalski</h2>
+                    
+                    <h3 class="subtitle">Kim jestem?</h3>
+                    <p>Jestem pasjonatem technologii webowych, programistą z kilkuletnim doświadczeniem. Uwielbiam tworzyć nowoczesne, responsywne strony internetowe i aplikacje.</p>
+                    
+                    <h3 class="subtitle">Moje doświadczenie</h3>
+                    <p>Pracowałem przy wielu projektach komercyjnych, od prostych stron wizytówek po zaawansowane systemy zarządzania treścią. Specjalizuję się w PHP, JavaScript oraz frameworkach takich jak Laravel i React.</p>
+                    
+                    <h3 class="subtitle">Cele i pasje</h3>
+                    <p>Poza programowaniem interesuję się fotografią, podróżami i nowymi technologiami. Stale rozwijam swoje umiejętności, uczestnicząc w konferencjach i kursach online.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Jan Kowalski. Wszystkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
 </body>
 </html>
