@@ -95,6 +95,7 @@ footer {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin-top: 2rem;
+    color: black;
 }
 
 .project-card {
@@ -143,6 +144,7 @@ footer {
     padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    color: black;
 }
 
 .blog-post h3 {
